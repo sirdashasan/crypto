@@ -9,6 +9,12 @@ const Markets = () => {
   return (
     <section className="mt-8 ">
       <h1 className="text-2xl mb-2 ">Markets</h1>
+      <div className="flex items-center gap-1 w-full font-semibold mb-2">
+        <p>Coin Name</p>
+        <p className="pl-64">Price</p>
+        <p className="pl-32">Price Change</p>
+        <p className="pl-36">Market Cap</p>
+      </div>
       {response && response.map((coin) => <Coin key={coin.id} coin={coin} />)}
     </section>
   );

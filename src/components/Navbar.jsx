@@ -16,6 +16,12 @@ const Navbar = () => {
             <span className="text-yellow-500">C</span>rypto
             <span className="text-yellow-500">H</span>asan
           </p>
+
+          <input
+            type="text"
+            placeholder="Search..."
+            className="search text-black"
+          />
         </div>
       </div>
     </div>

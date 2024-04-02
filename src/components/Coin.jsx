@@ -29,7 +29,6 @@ const Coin = ({ coin }) => {
           {coin.price_change_percentage_24h}
         </span>
         <div className="hidden sm:block">
-          <p className="font-semibold">Market Cap</p>
           <span>{currencyFormat(coin.market_cap)}</span>
         </div>
       </div>
